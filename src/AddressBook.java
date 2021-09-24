@@ -11,6 +11,10 @@ public class AddressBook {
         buddies.remove(buddyInfo);
     }
 
+    private void doNothing(){
+
+    }
+
     public static void main(String[] args) {
         System.out.println("Address book");
         BuddyInfo buddy1 = new BuddyInfo();
