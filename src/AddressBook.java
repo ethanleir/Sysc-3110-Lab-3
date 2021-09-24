@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 public class AddressBook {
-    private ArrayList<BuddyInfo> buddies = new ArrayList<BuddyInfo>();
+    private ArrayList<BuddyInfo> buddies = new ArrayList<>();
 
     public void addBuddy(BuddyInfo buddyInfo){
         buddies.add(buddyInfo);
